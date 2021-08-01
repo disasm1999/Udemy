@@ -6,38 +6,38 @@ import csv
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
            'Accept': 'application/json, text/javascript, */*; q=0.01'}
 
-URL = 'https://coursevania.com/wp-admin/admin-ajax.php?offset=1&template=courses/grid&args=' \
-      '{"posts_per_page":"10"}' \
-      '&action=stm_lms_load_content&nonce=db160aa366&sort=date_high'
-
 URL1 = 'https://coursevania.com/wp-admin/admin-ajax.php?offset='
 URL2 = '&template=courses/grid&args={"posts_per_page":"10"}' \
        '&action=stm_lms_load_content&nonce=db160aa366&sort=date_high'
 
 FILE = 'udemy.csv'
 
+#web scraping
+#https://www.tutorialbar.com/category/development/
 
-def get_html(page=0):
-    url = URL1 + str( page ) + URL2
-#    print( url )
+def get_html(url):
     r = requests.get( url, headers=HEADERS )
-    if r.status_code != 200:
-        print( 'Error 200!' )
+    return r
+
+
+def get_udemy(page=0):
+    url = URL1 + str( page ) + URL2
+    r = get_html( url )
     soup = bs4( r.content, 'html.parser' )
     return soup
 
 
 def get_pages_count():
-    data = html_clean( get_html() )
+    data = html_clean( get_udemy() )
     beg = data.find( 'href' ) + 6
-#    link = data[beg:data.find( '"', beg )]
+    #    link = data[beg:data.find( '"', beg )]
     total = data[data.find( '"total"' ) + 8:data.find( '"pages"' ) - 1]
     pages = int( data[data.find( '"pages"' ) + 8:data.rfind( '}' )] )
-#    print( link )
-    print(f'Всего найдено {total} курсов'  )
-    print(f'Всего {pages} старниц'  )
-#    print( data.find( '"pages"' ) + 8 )
-#    print( data.rfind( '}' ) )
+    #    print( link )
+    print( f'Всего найдено {total} курсов' )
+    print( f'Всего {pages} старниц' )
+    #    print( data.find( '"pages"' ) + 8 )
+    #    print( data.rfind( '}' ) )
     return pages
 
 
@@ -65,14 +65,23 @@ def get_content(html):
         #        print(item[link_cours_beg:link_cours_end])
         #        print(item[link_pic_beg:link_pic_end])
         if len( item[title_beg:title_end] ) > 0:
+            req = get_html(item[link_cours_beg:link_cours_end])
+            if req.status_code == 200:
+                soup = bs4( req.content, 'html.parser' )
+                divs = soup.find( 'div', attrs={'class': 'stm-lms-buy-buttons'} )  # ищем кнопку купить
+                href = divs.find( 'a' )['href']
+#                print( "{}".format( href ) )
+            else:
+                print( "Ошибка URL" )
             udemy.append( {
                 'title': item[title_beg:title_end].replace( '&amp;', '&' ),
                 'category': item[category_beg:category_end].replace( '&amp;', '&' ),
                 'link_coursevania': item[link_cours_beg:link_cours_end],
+                'link': href,
                 'link_pictures': item[link_pic_beg:link_pic_end],
             } )
-#        else:
-#            print( 'Пустая строка' )
+    #        else:
+    #            print( 'Пустая строка' )
     #        print(item)
     #    print(udemy)
     return udemy
@@ -81,17 +90,17 @@ def get_content(html):
 def save_file(items, path):
     with open( path, 'w', newline='' ) as file:
         writer = csv.writer( file, delimiter=';' )
-        writer.writerow( ['Марка', 'Категория', 'Ссылка'] )
+        writer.writerow( ['Марка', 'Категория', 'Ссылка Coursevania', 'Ссылка Udemy'] )
         for item in items:
-            writer.writerow( [item['title'], item['category'], item['link_coursevania']] )
+            writer.writerow( [item['title'], item['category'], item['link_coursevania'], item['link']] )
 
 
 def parse():
     udemy = []
-    pages = get_pages_count() + 1
+    pages = get_pages_count()
     for page in range( 0, pages ):
         print( f'Парсинг страницы {page} из {pages}...' )
-        html = get_html( page )
+        html = get_udemy( page )
         udemy.extend( get_content( html_clean( html ) ) )
     save_file( udemy, FILE )
     print( f'Получено {len( udemy )} курсов' )

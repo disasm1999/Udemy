@@ -1,0 +1,65 @@
+https://www.tutorialbar.com/python-for-finance-financial-analysis-for-investing/
+
+
+<div class="priced_block clearfix  ">
+	              	        	
+	            	    			    			<span class="rh_button_wrapper">
+		            	<a href="https://www.udemy.com/course/python-for-finance-financial-analysis-for-investing/?couponCode=DISCUDEMY.COM" class="btn_offer_block re_track_btn" target="_blank" rel="nofollow sponsored">
+			            			            	Enroll Now			            			            		            </a>
+		        	</span>
+	            	
+		    								    		
+		        	            	        
+	        </div>
+
+
+
+
+Бесплатно
+<div class="price-text--price-part--Tu6MH udlite-clp-discount-price udlite-heading-xxl" data-purpose="course-price-text"><span class="udlite-sr-only">Текущая цена</span><span>Бесплатно</span></div>
+<div class="buy-box--buy-box-item--1Qbkl"><div><div class="price-text--container--Ws-fP udlite-clp-price-text" data-purpose="price-text-container"><div class="price-text--price-part--Tu6MH udlite-clp-discount-price udlite-heading-xxl" data-purpose="course-price-text"><span class="udlite-sr-only">Текущая цена</span><span>Бесплатно</span></div><div class="price-text--price-part--Tu6MH price-text--original-price--2e-F5 udlite-clp-list-price udlite-text-sm" data-purpose="original-price-container"><div data-purpose="course-old-price-text"><span class="udlite-sr-only">Первоначальная цена</span><span><s><span>6&nbsp;990&nbsp;руб.</span></s></span></div></div><div class="price-text--price-part--Tu6MH udlite-clp-percent-discount udlite-text-sm" data-purpose="discount-percentage"><span class="udlite-sr-only">СКИДКА</span><span>Скидка 100%</span></div></div></div></div>
+
+1090
+<div class="price-text--container--Ws-fP udlite-clp-price-text" data-purpose="price-text-container"><div class="price-text--price-part--Tu6MH udlite-clp-discount-price udlite-heading-xxl" data-purpose="course-price-text"><span class="udlite-sr-only">Текущая цена</span><span><span>1&nbsp;090&nbsp;руб.</span></span></div><div class="price-text--price-part--Tu6MH price-text--original-price--2e-F5 udlite-clp-list-price udlite-text-sm" data-purpose="original-price-container"><div data-purpose="course-old-price-text"><span class="udlite-sr-only">Первоначальная цена</span><span><s><span>6&nbsp;990&nbsp;руб.</span></s></span></div></div><div class="price-text--price-part--Tu6MH udlite-clp-percent-discount udlite-text-sm" data-purpose="discount-percentage"><span class="udlite-sr-only">СКИДКА</span><span>Скидка 84%</span></div></div>
+
+
+действует
+<span class="udlite-text-sm" data-purpose="safely-set-inner-html:discount-expiration:expiration-text">Данная цена доступна еще <b>1 дня</b>!</span>
+
+
+
+
+перейти в корзину
+https://www.udemy.com/cart/
+
+
+оформление заказа
+<div><button data-purpose="shopping-cart-checkout" type="button" class="btn btn-lg btn-primary btn-block">Оформление заказа</button></div>
+
+https://www.udemy.com/cart/checkout/
+
+Зарегестрироваться
+<button type="submit" class="ellipsis btn btn-lg btn-primary btn-block">Зарегистрироваться</button>
+
+
+картинка
+https://www.udemy.com/course/why-havent-you-started-your-business-yet/
+<div class="styles--sc-card__thumbnail--1rTuN" data-purpose="cart-thumbnail"><a href="/course/why-havent-you-started-your-business-yet/" target="_self"><img class="styles--sc-card__image--2xyJE styles--sc-card__image--lg--J8lG8" data-purpose="card-thumbnail-lg" alt="" width="240" height="135" src="https://img-c.udemycdn.com/course/240x135/3672856_83a9_3.jpg"><img class="styles--sc-card__image--2xyJE styles--sc-card__image--sm--WZWal" data-purpose="card-thumbnail-sm" alt="" width="100" height="100" src="data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 100 100&quot;%3E%3C/svg%3E"></a></div>
+
+
+Нельзя зарегестрироваться
+https://www.udemy.com/course/digital-marketing-agency-grow/?couponCode=A5451241BE5EC6BDF4B5
+
+
+
+
+Оплата, если деньгами то радиобутон
+<span class="radio-label"><span class="fx-lc h100p"><span class="sc-card-box__label">Новая карта оплаты</span></span></span>
+
+<div class="checkout--sc-card-box--1T6i_ checkout--selection--2jumB"><div class="db radio"><label title=""><input id="Paypal_express-checkout" name="payment-methods" type="radio"><span class="toggle-control-label radio-label"><span class="radio-label"><span class="sc-card-box__label">PayPal </span><img src="https://s3.amazonaws.com/growth-prototypes/pp_cc_mark_111x69.jpg" alt="Значок PayPal" class="ml-space-sm" width="74" height="20"></span></span></label></div></div>
+
+
+<input autocomplete="off" data-purpose="nameOnCard" type="text" id="nameOnCard-input" class="form-control" value="">
+
+
+<div class="checkout--new-card-form--JMty5"><div class="form-group form-group-floating-label"><input autocomplete="off" data-purpose="nameOnCard" type="text" id="nameOnCard-input" class="form-control" value=""><label for="nameOnCard-input" class="control-label">Имя на карте</label><span class="help-block">Введите ваше имя, как оно указано на карте.</span></div><div class="form-group form-group-floating-label has-feedback"><div class="form-control StripeElement StripeElement--empty"><div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;"><iframe name="__privateStripeFrame6205" frameborder="0" allowtransparency="true" scrolling="no" allow="payment *" src="https://js.stripe.com/v3/elements-inner-card-a7ff74eba5d30ad5e31adff0cb8abbba.html#wait=false&amp;style[base][color]=%2329303b&amp;style[base][fontSize]=16px&amp;style[base][fontFamily]=%22Open+Sans%22%2C+%22Helvetica+Neue%22%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][fontStyle]=normal&amp;style[base][fontWeight]=400&amp;style[base][::placeholder][color]=%23fff&amp;style[base][::placeholder][fontSize]=0&amp;style[invalid][color]=%2329303b&amp;placeholder=+&amp;rtl=false&amp;componentName=cardNumber&amp;keyMode=live&amp;apiKey=pk_live_xOuIgZiF7hb3wSwFSAOz3dRm&amp;referrer=https%3A%2F%2Fwww.udemy.com%2Fcart%2Fcheckout%2F&amp;controllerId=__privateStripeController6201" title="Защищенное окно для ввода номера карты" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; will-change: transform !important; height: 19.2px;"></iframe><input class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" " autocomplete="false" maxlength="1" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;"></div></div><span class="form-control-feedback udi udi-lock"></span><label for="cardNumber-input" class="control-label">Номер карты</label><span class="help-block">Проверьте номер вашей карты еще раз.</span></div><div class="row"><div class="col-xs-6"><div class="form-group form-group-floating-label"><div class="form-control StripeElement StripeElement--empty"><div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;"><iframe name="__privateStripeFrame6206" frameborder="0" allowtransparency="true" scrolling="no" allow="payment *" src="https://js.stripe.com/v3/elements-inner-card-a7ff74eba5d30ad5e31adff0cb8abbba.html#wait=false&amp;style[base][color]=%2329303b&amp;style[base][fontSize]=16px&amp;style[base][fontFamily]=%22Open+Sans%22%2C+%22Helvetica+Neue%22%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][fontStyle]=normal&amp;style[base][fontWeight]=400&amp;style[base][::placeholder][color]=%23fff&amp;style[base][::placeholder][fontSize]=0&amp;style[invalid][color]=%2329303b&amp;placeholder=+&amp;rtl=false&amp;componentName=cardExpiry&amp;keyMode=live&amp;apiKey=pk_live_xOuIgZiF7hb3wSwFSAOz3dRm&amp;referrer=https%3A%2F%2Fwww.udemy.com%2Fcart%2Fcheckout%2F&amp;controllerId=__privateStripeController6201" title="Защищенное окно для ввода даты истечения срока" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; will-change: transform !important; height: 19.2px;"></iframe><input class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" " autocomplete="false" maxlength="1" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;"></div></div><label for="cardExpiry-input" class="control-label">ММ/ГГ</label><span class="help-block">Введите действительную дату окончания срока действия.</span></div></div><div class="col-xs-6 checkout--sc-card__stripe-security-code--3PIql"><div class="form-group form-group-floating-label has-feedback"><div class="form-control StripeElement StripeElement--empty"><div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;"><iframe name="__privateStripeFrame6207" frameborder="0" allowtransparency="true" scrolling="no" allow="payment *" src="https://js.stripe.com/v3/elements-inner-card-a7ff74eba5d30ad5e31adff0cb8abbba.html#wait=false&amp;style[base][color]=%2329303b&amp;style[base][fontSize]=16px&amp;style[base][fontFamily]=%22Open+Sans%22%2C+%22Helvetica+Neue%22%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][fontStyle]=normal&amp;style[base][fontWeight]=400&amp;style[base][::placeholder][color]=%23fff&amp;style[base][::placeholder][fontSize]=0&amp;style[invalid][color]=%2329303b&amp;placeholder=+&amp;rtl=false&amp;componentName=cardCvc&amp;keyMode=live&amp;apiKey=pk_live_xOuIgZiF7hb3wSwFSAOz3dRm&amp;referrer=https%3A%2F%2Fwww.udemy.com%2Fcart%2Fcheckout%2F&amp;controllerId=__privateStripeController6201" title="Защищенное окно для ввода CVC-кода" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; will-change: transform !important; height: 19.2px;"></iframe><input class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" " autocomplete="false" maxlength="1" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;"></div></div><span class="tooltip-container form-control-feedback udi udi-question-circle"><div id="cvc-tooltip" data-purpose="base-tooltip" role="tooltip" class="with-chevron tooltip tooltip-blue top"><div class="tooltip-arrow"></div><div class="tooltip-inner"><div class=""><img src="/staticx/udemy/images/shopping-cart/security_code.svg" alt="Пример CVC" height="168" width="323" class=""></div></div></div></span><label for="cardCvc-input" class="checkout--custom-control-label--VtDVr control-label">Код безопасности карты</label><span class="help-block">Проверьте ваш код безпасности еще раз.</span></div></div></div><div class="row"><div class="col-xs-6"><div class="form-group form-group-floating-label"><input autocomplete="off" data-purpose="addressZip" type="text" id="addressZip-input" class="form-control" value=""><label for="addressZip-input" class="control-label">Почтовый индекс</label><span class="help-block">Введите индекс.</span></div></div></div><div class="form-group"><div class="checkbox"><label title=""><input data-purpose="rememberMe" type="checkbox" checked=""><span class="toggle-control-label checkbox-label">Запомнить эту карту</span></label></div></div></div>
