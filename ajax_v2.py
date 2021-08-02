@@ -5,11 +5,12 @@ import csv
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
            'Accept': 'application/json, text/javascript, */*; q=0.01'}
-
+HOST = 'https://coursevania.com'
 URL1 = 'https://coursevania.com/wp-admin/admin-ajax.php?offset='
 URL2 = '&template=courses/grid&args={"posts_per_page":"10"}' \
-       '&action=stm_lms_load_content&nonce=db160aa366&sort=date_high'
+       '&action=stm_lms_load_content&nonce='
 
+#       '&action=stm_lms_load_content&nonce=db160aa366&sort=date_high'
 FILE = 'udemy.csv'
 
 #web scraping
@@ -21,7 +22,7 @@ def get_html(url):
 
 
 def get_udemy(page=0):
-    url = URL1 + str( page ) + URL2
+    url = URL1 + str( page ) + URL2 + load_content
     r = get_html( url )
     soup = bs4( r.content, 'html.parser' )
     return soup
@@ -96,6 +97,13 @@ def save_file(items, path):
 
 
 def parse():
+    r = get_html(HOST)
+    soup = bs4( r.content, 'html.parser' )
+    content = str(soup)
+    content_beg = content.find('load_content')+15
+    global load_content
+    load_content = content[content_beg:content.find('"', content_beg+1)]
+#    print(load_content)
     udemy = []
     pages = get_pages_count()
     for page in range( 0, pages ):
@@ -108,5 +116,6 @@ def parse():
 
 # https://coursevania.com/courses/gann-box-trading-ninja-advance-diy-technical-analysis-tool/
 # https://www.udemy.com/course/gann-box/?couponCode=1JAN21
+
 
 parse()
